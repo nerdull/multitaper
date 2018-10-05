@@ -1,8 +1,15 @@
 # multitaper
-A Pythonic implementation of multitaper method for spectral density estimation. It takes a 1D or 2D numpy array as the input and estimates the power spectral density. The Slepian sequences will be generated ad hoc.
+A pure Pythonic implementation of the *multitaper* method for spectral density estimation. It takes a 1D or 2D **numpy.ndarray** as the input and estimates its power spectral density. Each time an object is created, a new Slepian sequence is generated. This object can be used to calculate power spectral density as often as possible.
 
 ## Prerequisites
-`numpy` and `scipy`
+This code depends only on `numpy` and `scipy` so it works with Python version 2 and 3 (tested with versions 2.7.15 and 3.6.5).
+
+## Similar projects
+Other libraries including a multitaper implementations for Python can be found on PyPI are [mtspec](https://pypi.org/project/mtspec/), [libftr](https://pypi.org/project/libtfr/) and [spectrum](https://pypi.org/project/spectrum/).
+
+## Further Reading
+
+* Percival, D. B. and Walden, A. T., Spectral Analysis for Physical Applications, Cambridge University Press 2002, ISBN: [9780521435413](http://www.worldcat.org/oclc/803678734)
 
 ## License
 **GNU GPLv3**
