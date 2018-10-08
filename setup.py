@@ -36,10 +36,8 @@ setup(
     long_description=read_md('README.md'),
     author='nerdull',
     url='https://github.com/nerdull/multitaper',  # use the URL to the github repo
-    download_url='https://github.com/nerdull/multitaper/tarball/{}'.format(
-        __version__),
+    download_url='https://github.com/nerdull/multitaper/tarball/{}'.format(__version__),
     license='GPLv3',
-    keywords=['physics', 'data', 'time series',
-              'spectral estimation'],  # arbitrary keywords
+    keywords=['physics', 'data', 'time series', 'spectral density estimation'],  # arbitrary keywords
     classifiers=classifiers
 )
