@@ -20,4 +20,4 @@ Other libraries including a multitaper implementations for Python can be found o
 * Percival, D. B. and Walden, A. T., Spectral Analysis for Physical Applications, Cambridge University Press 2002, ISBN: [9780521435413](http://www.worldcat.org/oclc/803678734)
 
 ## License
-**GNU GPLv3**
+**MIT**
